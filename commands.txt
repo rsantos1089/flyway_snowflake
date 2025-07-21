@@ -2,9 +2,6 @@ docker pull redgate/flyway
 docker run -it --rm --entrypoint /bin/bash redgate/flyway
 
 
-#user:ADMIN
-#pass:Admin123456789
-#https://lzuanyu-gcc25290.snowflakecomputing.com/console/login.
 CREATE USER FLYWAY_USER;
 CREATE OR REPLACE DATABASE DEVOPS;
 CREATE OR REPLACE SCHEMA FLYWAY;
